@@ -1,13 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head><title>Jacob Rogers</title></head>
+    <head>
+        <title>Jacob Rogers</title>
+        <style>
+            .experience li, .skills li {
+                margin-bottom: 10px;
+            }
+            li#no-style{
+                list-style: none;
+            }
+            li#no-style ul li{
+                list-style: circle;
+            }
+            table p{
+                font-size: larger;
+                padding-left: 25px;
+            }
+            .experience h2{
+                border-bottom: solid 1px red;
+            }
+            .skills h2{
+                border-bottom: solid 1px blue;
+            }
+        </style>
+    </head>
     <body>
         <h1>Jacob Rogers</h1>
         <hr>
-        <a href="https://www.linkedin.com/in/jacob-c-rogers/" target="_blank">
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGfNML98fz3sw/profile-displayphoto-shrink_400_400/0?e=1603324800&v=beta&t=62TwKM5s9gj777I5H1Si2359ZwaOgzhqEFsyEscYIQc" alt="Jacob Rogers - Creator, Coder, Thinker"
-            style="width: 200px;">
-        </a>
-        <p>Undergrad student at Miami University</p>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.linkedin.com/in/jacob-c-rogers/" target="_blank">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGfNML98fz3sw/profile-displayphoto-shrink_400_400/0?e=1603324800&v=beta&t=62TwKM5s9gj777I5H1Si2359ZwaOgzhqEFsyEscYIQc"
+                    alt="Jacob Rogers - Creator, Coder, Thinker" style="width: 200px;">
+                    </a>
+                </td>
+                <td><p>Undergrad student at Miami University<br><strong>Class of 2020</strong></p>
+                <p>Interactive Media Studies major</p></td>
+            </tr>
+        </table>
+        <hr>
+        <div class="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>ActiveScaler - Background Web Developer (Internship)
+                <small>July 2020 - Present</small></li> 
+                <li id="no-style"><ul>
+                    <li>Node.js</li>
+                    <li>Express Framework</li>
+                    <li>MongoDB</li>
+                    <li>ElasticSearch</li>
+                </ul></li>
+                <li>Nervous Dog Coffee - Web Developer and Consultant
+                <small>May 2020 - Present</small></li>
+                <li id="no-style"><ul>
+                    <li>Shopify</li>
+                    <li>LeadDyno</li>
+                </ul></li>
+            </ul>
+        </div><hr>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><h3>Game Design</h3></li>
+                <li id="no-style"><ul>
+                    <li>Unity & C# Coding</li>
+                    <li>Unreal Engine 4</li>
+                    <li>3D Modelling <small>(Maya)</small></li>
+                    <li>Game Design Documents</li>
+                </ul></li>
+                <li><h3>Web Design and Development</h3></li>
+                <li id="no-style"><ul>
+                    <li>HTML & CSS</li>
+                    <li>Database Management <small>(Express Framework, 
+                        MongoDB, ElasticSearch)</small></li>
+                    <li>Node.js & JavaScript</li>
+                </ul></li>
+            </ul>
+        </div>
+        <footer>
+            <div>
+                <p>Contact Me: <address><a href="mailto:jacobr410@gmail.com?subject=Site Conact">
+                    jacobr410@gmail.com
+                </a>
+                </address></p>
+            </div>
+        </footer>
     </body>
 </html>
